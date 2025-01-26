@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form_Cipher</class>
+ <widget class="QWidget" name="Form_Cipher">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>387</width>
+    <height>440</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLineEdit" name="messageInput"/>
+       </item>
+       <item>
+        <widget class="QLabel" name="msg">
+         <property name="text">
+          <string>Meesage</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLineEdit" name="keyInput"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="key">
+       <property name="text">
+        <string>key</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QLabel" name="encryptedMessage">
+     <property name="text">
+      <string>Encrypted Message</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="CipherButton">
+     <property name="text">
+      <string>Cipher</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="DecipherButton">
+     <property name="text">
+      <string>Decipher</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="Back">
+     <property name="text">
+      <string>Back</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
